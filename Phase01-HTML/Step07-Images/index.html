@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Images</title>
+  <style>
+    .responsive {
+      max-width: 100%;
+      height: auto;
+    }
+    .styled-img {
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. Basic Image -->
+  <h2>Basic Image</h2>
+  <img src="image.jpg" alt="Basic Image">
+
+  <!-- 2. Image with Width and Height -->
+  <h2>Image with Width and Height</h2>
+  <img src="pic.jpg" alt="Sized Image" width="200" height="100">
+
+  <!-- 3. Responsive Image -->
+  <h2>Responsive Image</h2>
+  <img src="responsive.jpg" alt="Responsive Image" class="responsive">
+
+  <!-- 4. Styled Image -->
+  <h2>Styled Image</h2>
+  <img src="styled.jpg" alt="Styled" class="styled-img">
+
+  <!-- 5. Clickable Image -->
+  <h2>Image Link</h2>
+  <a href="https://example.com">
+    <img src="logo.png" alt="Logo">
+  </a>
+
+  <!-- 6. Image as a Button -->
+  <h2>Image Button</h2>
+  <form>
+    <input type="image" src="submit.png" alt="Submit Button" width="100">
+  </form>
+
+</body>
+</html>
